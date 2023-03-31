@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(01.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.box1
+{
+    background-color:transparent;
+    margin: auto;
+    padding: 50px;
+    font-size: 23px;
+}
+.box1 h1 , p{
+    text-align: center;
+}
+.navbar{
+    text-align: center;
+}
+nav{
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.container
+{
+    position: relative;
+    top: 100px;
+    left: 600px;
+    border-radius: 10px;
+    width: 320px;
+    height: 430px;
+    color: white;
+    background-color: transparent;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0); 
+    border-right: 2px solid rgb(0, 0, 0); 
+    border-bottom: 2px solid rgb(0, 0, 0); 
+}
+.name
+        {
+            width:240px;
+            margin-left: 40px;
+            margin-top: 40px;
+            background-color: black;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            color: rgb(0, 0, 0);
+            
+        }
+        .email
+        {
+            width: 240px;
+            margin-left: 40px;
+            margin-top: 40px;
+            background-color: black;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            color: rgb(0, 0, 0);
+        }
+        .gender
+        {
+            width: 240px;
+            margin-left: 40px;
+            margin-top: 40px;
+            background-color: black;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            color: rgb(0, 0, 0);
+        }
+        .phoneNo
+        {
+            width: 240px;
+            margin-left: 40px;
+            margin-top: 40px;
+            background-color: black;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            color: rgb(0, 0, 0);
+        }
+        .btn
+        {
+            margin-left: 40px;
+            margin-top: 45px;
+            background-color: aqua;
+            height: 30px;
+            border-radius: 7px;
+            width: 245px; 
+            cursor: pointer;
+            transition: .5s ease;
+        }
+        .h2
+        {
+            color: black;
+            margin-left: 109px;
+            padding-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
